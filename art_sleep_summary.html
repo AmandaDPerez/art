@@ -34,6 +34,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="art_sleep_summary_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="art_sleep_summary_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 
+<script src="art_sleep_summary_files/libs/kePrint-0.0.1/kePrint.js"></script>
+<link href="art_sleep_summary_files/libs/lightable-0.0.1/lightable.css" rel="stylesheet">
+
 
 </head>
 
@@ -46,6 +49,7 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#art-reliability" id="toc-art-reliability" class="nav-link active" data-scroll-target="#art-reliability">aRT Reliability</a></li>
+  <li><a href="#correlations" id="toc-correlations" class="nav-link" data-scroll-target="#correlations">Correlations</a></li>
   <li><a href="#outcome-variables-for-sleep" id="toc-outcome-variables-for-sleep" class="nav-link" data-scroll-target="#outcome-variables-for-sleep">Outcome Variables for Sleep</a></li>
   <li><a href="#sleep-analyses" id="toc-sleep-analyses" class="nav-link" data-scroll-target="#sleep-analyses">Sleep Analyses</a>
   <ul class="collapse">
@@ -97,6 +101,748 @@ sa    -0.10  0.93 -0.33 -0.29 -0.14
 aware  0.59 -0.30  0.89  0.39  0.67
 rrw    0.26 -0.24  0.31  0.71  0.44
 rc     0.57 -0.13  0.57  0.34  0.82</code></pre>
+</div>
+</div>
+</section>
+<section id="correlations" class="level2">
+<h2 class="anchored" data-anchor-id="correlations">Correlations</h2>
+<div class="cell">
+<div class="cell-output-display">
+
+<table class=" lightable-classic lightable-striped" style="font-family: &quot;Arial Narrow&quot;, &quot;Source Sans Pro&quot;, sans-serif; width: auto !important; margin-left: auto; margin-right: auto;">
+<caption>Correlations</caption>
+ <thead>
+  <tr>
+   <th style="text-align:left;"> Var 1 </th>
+   <th style="text-align:left;"> Var2 </th>
+   <th style="text-align:right;"> r </th>
+   <th style="text-align:right;"> p-value </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> sleep_difficult </td>
+   <td style="text-align:left;"> sleep_disturbance </td>
+   <td style="text-align:right;"> 0.7339543 </td>
+   <td style="text-align:right;"> 0.0000000 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> sleep_difficult </td>
+   <td style="text-align:left;"> sleep_quality </td>
+   <td style="text-align:right;"> -0.6314422 </td>
+   <td style="text-align:right;"> 0.0000000 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> sleep_disturbance </td>
+   <td style="text-align:left;"> sleep_quality </td>
+   <td style="text-align:right;"> -0.6063606 </td>
+   <td style="text-align:right;"> 0.0000000 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> sleep_difficult </td>
+   <td style="text-align:left;"> physical health </td>
+   <td style="text-align:right;"> -0.2680381 </td>
+   <td style="text-align:right;"> 0.0000000 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> sleep_disturbance </td>
+   <td style="text-align:left;"> physical health </td>
+   <td style="text-align:right;"> -0.2704291 </td>
+   <td style="text-align:right;"> 0.0000000 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> sleep_quality </td>
+   <td style="text-align:left;"> physical health </td>
+   <td style="text-align:right;"> 0.3821468 </td>
+   <td style="text-align:right;"> 0.0000000 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> sleep_difficult </td>
+   <td style="text-align:left;"> aRT_cc </td>
+   <td style="text-align:right;"> 0.1474076 </td>
+   <td style="text-align:right;"> 0.0004045 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> sleep_disturbance </td>
+   <td style="text-align:left;"> aRT_cc </td>
+   <td style="text-align:right;"> 0.1079495 </td>
+   <td style="text-align:right;"> 0.0097752 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> sleep_quality </td>
+   <td style="text-align:left;"> aRT_cc </td>
+   <td style="text-align:right;"> -0.1399108 </td>
+   <td style="text-align:right;"> 0.0005019 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> physical health </td>
+   <td style="text-align:left;"> aRT_cc </td>
+   <td style="text-align:right;"> -0.0655608 </td>
+   <td style="text-align:right;"> 0.1045963 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> sleep_difficult </td>
+   <td style="text-align:left;"> aRT_sa </td>
+   <td style="text-align:right;"> -0.0530562 </td>
+   <td style="text-align:right;"> 0.2051419 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> sleep_disturbance </td>
+   <td style="text-align:left;"> aRT_sa </td>
+   <td style="text-align:right;"> -0.1075931 </td>
+   <td style="text-align:right;"> 0.0100210 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> sleep_quality </td>
+   <td style="text-align:left;"> aRT_sa </td>
+   <td style="text-align:right;"> 0.1777062 </td>
+   <td style="text-align:right;"> 0.0000093 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> physical health </td>
+   <td style="text-align:left;"> aRT_sa </td>
+   <td style="text-align:right;"> 0.0620133 </td>
+   <td style="text-align:right;"> 0.1247901 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> aRT_cc </td>
+   <td style="text-align:left;"> aRT_sa </td>
+   <td style="text-align:right;"> -0.1013282 </td>
+   <td style="text-align:right;"> 0.0119297 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> sleep_difficult </td>
+   <td style="text-align:left;"> aRT_rrw </td>
+   <td style="text-align:right;"> 0.1989577 </td>
+   <td style="text-align:right;"> 0.0000016 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> sleep_disturbance </td>
+   <td style="text-align:left;"> aRT_rrw </td>
+   <td style="text-align:right;"> 0.1477773 </td>
+   <td style="text-align:right;"> 0.0003910 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> sleep_quality </td>
+   <td style="text-align:left;"> aRT_rrw </td>
+   <td style="text-align:right;"> -0.2067421 </td>
+   <td style="text-align:right;"> 0.0000002 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> physical health </td>
+   <td style="text-align:left;"> aRT_rrw </td>
+   <td style="text-align:right;"> -0.1042029 </td>
+   <td style="text-align:right;"> 0.0097712 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> aRT_cc </td>
+   <td style="text-align:left;"> aRT_rrw </td>
+   <td style="text-align:right;"> 0.2550997 </td>
+   <td style="text-align:right;"> 0.0000000 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> aRT_sa </td>
+   <td style="text-align:left;"> aRT_rrw </td>
+   <td style="text-align:right;"> -0.2352431 </td>
+   <td style="text-align:right;"> 0.0000000 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> sleep_difficult </td>
+   <td style="text-align:left;"> aRT_rc </td>
+   <td style="text-align:right;"> 0.1505242 </td>
+   <td style="text-align:right;"> 0.0003030 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> sleep_disturbance </td>
+   <td style="text-align:left;"> aRT_rc </td>
+   <td style="text-align:right;"> 0.1116414 </td>
+   <td style="text-align:right;"> 0.0075268 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> sleep_quality </td>
+   <td style="text-align:left;"> aRT_rc </td>
+   <td style="text-align:right;"> -0.1676740 </td>
+   <td style="text-align:right;"> 0.0000292 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> physical health </td>
+   <td style="text-align:left;"> aRT_rc </td>
+   <td style="text-align:right;"> -0.0372235 </td>
+   <td style="text-align:right;"> 0.3571544 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> aRT_cc </td>
+   <td style="text-align:left;"> aRT_rc </td>
+   <td style="text-align:right;"> 0.5705337 </td>
+   <td style="text-align:right;"> 0.0000000 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> aRT_sa </td>
+   <td style="text-align:left;"> aRT_rc </td>
+   <td style="text-align:right;"> -0.1252923 </td>
+   <td style="text-align:right;"> 0.0018513 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> aRT_rrw </td>
+   <td style="text-align:left;"> aRT_rc </td>
+   <td style="text-align:right;"> 0.3352058 </td>
+   <td style="text-align:right;"> 0.0000000 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> sleep_difficult </td>
+   <td style="text-align:left;"> aRT_aware </td>
+   <td style="text-align:right;"> 0.1794885 </td>
+   <td style="text-align:right;"> 0.0000157 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> sleep_disturbance </td>
+   <td style="text-align:left;"> aRT_aware </td>
+   <td style="text-align:right;"> 0.1454422 </td>
+   <td style="text-align:right;"> 0.0004840 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> sleep_quality </td>
+   <td style="text-align:left;"> aRT_aware </td>
+   <td style="text-align:right;"> -0.2027932 </td>
+   <td style="text-align:right;"> 0.0000004 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> physical health </td>
+   <td style="text-align:left;"> aRT_aware </td>
+   <td style="text-align:right;"> -0.0747336 </td>
+   <td style="text-align:right;"> 0.0642214 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> aRT_cc </td>
+   <td style="text-align:left;"> aRT_aware </td>
+   <td style="text-align:right;"> 0.5928296 </td>
+   <td style="text-align:right;"> 0.0000000 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> aRT_sa </td>
+   <td style="text-align:left;"> aRT_aware </td>
+   <td style="text-align:right;"> -0.3000746 </td>
+   <td style="text-align:right;"> 0.0000000 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> aRT_rrw </td>
+   <td style="text-align:left;"> aRT_aware </td>
+   <td style="text-align:right;"> 0.3058069 </td>
+   <td style="text-align:right;"> 0.0000000 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> aRT_rc </td>
+   <td style="text-align:left;"> aRT_aware </td>
+   <td style="text-align:right;"> 0.5747753 </td>
+   <td style="text-align:right;"> 0.0000000 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> sleep_difficult </td>
+   <td style="text-align:left;"> EOD </td>
+   <td style="text-align:right;"> 0.1989212 </td>
+   <td style="text-align:right;"> 0.0000016 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> sleep_disturbance </td>
+   <td style="text-align:left;"> EOD </td>
+   <td style="text-align:right;"> 0.1572712 </td>
+   <td style="text-align:right;"> 0.0001589 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> sleep_quality </td>
+   <td style="text-align:left;"> EOD </td>
+   <td style="text-align:right;"> -0.2255923 </td>
+   <td style="text-align:right;"> 0.0000000 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> physical health </td>
+   <td style="text-align:left;"> EOD </td>
+   <td style="text-align:right;"> -0.1336446 </td>
+   <td style="text-align:right;"> 0.0009010 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> aRT_cc </td>
+   <td style="text-align:left;"> EOD </td>
+   <td style="text-align:right;"> 0.3802431 </td>
+   <td style="text-align:right;"> 0.0000000 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> aRT_sa </td>
+   <td style="text-align:left;"> EOD </td>
+   <td style="text-align:right;"> -0.1726384 </td>
+   <td style="text-align:right;"> 0.0000167 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> aRT_rrw </td>
+   <td style="text-align:left;"> EOD </td>
+   <td style="text-align:right;"> 0.3182559 </td>
+   <td style="text-align:right;"> 0.0000000 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> aRT_rc </td>
+   <td style="text-align:left;"> EOD </td>
+   <td style="text-align:right;"> 0.3571182 </td>
+   <td style="text-align:right;"> 0.0000000 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> aRT_aware </td>
+   <td style="text-align:left;"> EOD </td>
+   <td style="text-align:right;"> 0.5032767 </td>
+   <td style="text-align:right;"> 0.0000000 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> sleep_difficult </td>
+   <td style="text-align:left;"> Neuro </td>
+   <td style="text-align:right;"> 0.3583138 </td>
+   <td style="text-align:right;"> 0.0000000 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> sleep_disturbance </td>
+   <td style="text-align:left;"> Neuro </td>
+   <td style="text-align:right;"> 0.3637007 </td>
+   <td style="text-align:right;"> 0.0000000 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> sleep_quality </td>
+   <td style="text-align:left;"> Neuro </td>
+   <td style="text-align:right;"> -0.3977983 </td>
+   <td style="text-align:right;"> 0.0000000 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> physical health </td>
+   <td style="text-align:left;"> Neuro </td>
+   <td style="text-align:right;"> -0.3271840 </td>
+   <td style="text-align:right;"> 0.0000000 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> aRT_cc </td>
+   <td style="text-align:left;"> Neuro </td>
+   <td style="text-align:right;"> 0.2223125 </td>
+   <td style="text-align:right;"> 0.0000000 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> aRT_sa </td>
+   <td style="text-align:left;"> Neuro </td>
+   <td style="text-align:right;"> -0.0860581 </td>
+   <td style="text-align:right;"> 0.0328600 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> aRT_rrw </td>
+   <td style="text-align:left;"> Neuro </td>
+   <td style="text-align:right;"> 0.2228850 </td>
+   <td style="text-align:right;"> 0.0000000 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> aRT_rc </td>
+   <td style="text-align:left;"> Neuro </td>
+   <td style="text-align:right;"> 0.2451828 </td>
+   <td style="text-align:right;"> 0.0000000 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> aRT_aware </td>
+   <td style="text-align:left;"> Neuro </td>
+   <td style="text-align:right;"> 0.1816767 </td>
+   <td style="text-align:right;"> 0.0000058 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> EOD </td>
+   <td style="text-align:left;"> Neuro </td>
+   <td style="text-align:right;"> 0.1136466 </td>
+   <td style="text-align:right;"> 0.0047761 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> sleep_difficult </td>
+   <td style="text-align:left;"> age </td>
+   <td style="text-align:right;"> -0.1132125 </td>
+   <td style="text-align:right;"> 0.0067193 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> sleep_disturbance </td>
+   <td style="text-align:left;"> age </td>
+   <td style="text-align:right;"> -0.0677311 </td>
+   <td style="text-align:right;"> 0.1056179 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> sleep_quality </td>
+   <td style="text-align:left;"> age </td>
+   <td style="text-align:right;"> 0.0843913 </td>
+   <td style="text-align:right;"> 0.0364106 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> physical health </td>
+   <td style="text-align:left;"> age </td>
+   <td style="text-align:right;"> -0.0819663 </td>
+   <td style="text-align:right;"> 0.0423236 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> aRT_cc </td>
+   <td style="text-align:left;"> age </td>
+   <td style="text-align:right;"> -0.0837210 </td>
+   <td style="text-align:right;"> 0.0379277 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> aRT_sa </td>
+   <td style="text-align:left;"> age </td>
+   <td style="text-align:right;"> 0.1266594 </td>
+   <td style="text-align:right;"> 0.0016476 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> aRT_rrw </td>
+   <td style="text-align:left;"> age </td>
+   <td style="text-align:right;"> -0.1615480 </td>
+   <td style="text-align:right;"> 0.0000571 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> aRT_rc </td>
+   <td style="text-align:left;"> age </td>
+   <td style="text-align:right;"> -0.1208018 </td>
+   <td style="text-align:right;"> 0.0026937 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> aRT_aware </td>
+   <td style="text-align:left;"> age </td>
+   <td style="text-align:right;"> -0.0458685 </td>
+   <td style="text-align:right;"> 0.2560460 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> EOD </td>
+   <td style="text-align:left;"> age </td>
+   <td style="text-align:right;"> 0.0077859 </td>
+   <td style="text-align:right;"> 0.8471993 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Neuro </td>
+   <td style="text-align:left;"> age </td>
+   <td style="text-align:right;"> -0.1743111 </td>
+   <td style="text-align:right;"> 0.0000138 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> sleep_difficult </td>
+   <td style="text-align:left;"> faminc </td>
+   <td style="text-align:right;"> -0.0510314 </td>
+   <td style="text-align:right;"> 0.2435610 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> sleep_disturbance </td>
+   <td style="text-align:left;"> faminc </td>
+   <td style="text-align:right;"> -0.1033971 </td>
+   <td style="text-align:right;"> 0.0179057 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> sleep_quality </td>
+   <td style="text-align:left;"> faminc </td>
+   <td style="text-align:right;"> 0.0516883 </td>
+   <td style="text-align:right;"> 0.2203398 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> physical health </td>
+   <td style="text-align:left;"> faminc </td>
+   <td style="text-align:right;"> 0.1259774 </td>
+   <td style="text-align:right;"> 0.0027495 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> aRT_cc </td>
+   <td style="text-align:left;"> faminc </td>
+   <td style="text-align:right;"> 0.0751402 </td>
+   <td style="text-align:right;"> 0.0745791 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> aRT_sa </td>
+   <td style="text-align:left;"> faminc </td>
+   <td style="text-align:right;"> -0.1725061 </td>
+   <td style="text-align:right;"> 0.0000381 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> aRT_rrw </td>
+   <td style="text-align:left;"> faminc </td>
+   <td style="text-align:right;"> 0.1604480 </td>
+   <td style="text-align:right;"> 0.0001298 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> aRT_rc </td>
+   <td style="text-align:left;"> faminc </td>
+   <td style="text-align:right;"> 0.0682966 </td>
+   <td style="text-align:right;"> 0.1051790 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> aRT_aware </td>
+   <td style="text-align:left;"> faminc </td>
+   <td style="text-align:right;"> 0.1767053 </td>
+   <td style="text-align:right;"> 0.0000244 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> EOD </td>
+   <td style="text-align:left;"> faminc </td>
+   <td style="text-align:right;"> 0.1134063 </td>
+   <td style="text-align:right;"> 0.0070182 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Neuro </td>
+   <td style="text-align:left;"> faminc </td>
+   <td style="text-align:right;"> -0.1306691 </td>
+   <td style="text-align:right;"> 0.0018729 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> age </td>
+   <td style="text-align:left;"> faminc </td>
+   <td style="text-align:right;"> 0.0556382 </td>
+   <td style="text-align:right;"> 0.1870275 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> sleep_difficult </td>
+   <td style="text-align:left;"> employ_dichot </td>
+   <td style="text-align:right;"> 0.0944014 </td>
+   <td style="text-align:right;"> 0.0239544 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> sleep_disturbance </td>
+   <td style="text-align:left;"> employ_dichot </td>
+   <td style="text-align:right;"> 0.1096668 </td>
+   <td style="text-align:right;"> 0.0086641 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> sleep_quality </td>
+   <td style="text-align:left;"> employ_dichot </td>
+   <td style="text-align:right;"> -0.0763728 </td>
+   <td style="text-align:right;"> 0.0583717 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> physical health </td>
+   <td style="text-align:left;"> employ_dichot </td>
+   <td style="text-align:right;"> -0.1873544 </td>
+   <td style="text-align:right;"> 0.0000029 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> aRT_cc </td>
+   <td style="text-align:left;"> employ_dichot </td>
+   <td style="text-align:right;"> -0.0104473 </td>
+   <td style="text-align:right;"> 0.7959713 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> aRT_sa </td>
+   <td style="text-align:left;"> employ_dichot </td>
+   <td style="text-align:right;"> 0.0933681 </td>
+   <td style="text-align:right;"> 0.0205690 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> aRT_rrw </td>
+   <td style="text-align:left;"> employ_dichot </td>
+   <td style="text-align:right;"> -0.0800733 </td>
+   <td style="text-align:right;"> 0.0471554 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> aRT_rc </td>
+   <td style="text-align:left;"> employ_dichot </td>
+   <td style="text-align:right;"> -0.0500673 </td>
+   <td style="text-align:right;"> 0.2150201 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> aRT_aware </td>
+   <td style="text-align:left;"> employ_dichot </td>
+   <td style="text-align:right;"> -0.0634514 </td>
+   <td style="text-align:right;"> 0.1159676 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> EOD </td>
+   <td style="text-align:left;"> employ_dichot </td>
+   <td style="text-align:right;"> -0.0597853 </td>
+   <td style="text-align:right;"> 0.1386235 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Neuro </td>
+   <td style="text-align:left;"> employ_dichot </td>
+   <td style="text-align:right;"> 0.1469979 </td>
+   <td style="text-align:right;"> 0.0002543 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> age </td>
+   <td style="text-align:left;"> employ_dichot </td>
+   <td style="text-align:right;"> 0.1430214 </td>
+   <td style="text-align:right;"> 0.0003738 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> faminc </td>
+   <td style="text-align:left;"> employ_dichot </td>
+   <td style="text-align:right;"> -0.2733196 </td>
+   <td style="text-align:right;"> 0.0000000 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> sleep_difficult </td>
+   <td style="text-align:left;"> mar_dichot </td>
+   <td style="text-align:right;"> -0.0419884 </td>
+   <td style="text-align:right;"> 0.3161207 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> sleep_disturbance </td>
+   <td style="text-align:left;"> mar_dichot </td>
+   <td style="text-align:right;"> -0.0091031 </td>
+   <td style="text-align:right;"> 0.8280183 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> sleep_quality </td>
+   <td style="text-align:left;"> mar_dichot </td>
+   <td style="text-align:right;"> -0.0022142 </td>
+   <td style="text-align:right;"> 0.9562992 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> physical health </td>
+   <td style="text-align:left;"> mar_dichot </td>
+   <td style="text-align:right;"> -0.0454952 </td>
+   <td style="text-align:right;"> 0.2603297 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> aRT_cc </td>
+   <td style="text-align:left;"> mar_dichot </td>
+   <td style="text-align:right;"> -0.0624830 </td>
+   <td style="text-align:right;"> 0.1216491 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> aRT_sa </td>
+   <td style="text-align:left;"> mar_dichot </td>
+   <td style="text-align:right;"> 0.0167551 </td>
+   <td style="text-align:right;"> 0.6783635 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> aRT_rrw </td>
+   <td style="text-align:left;"> mar_dichot </td>
+   <td style="text-align:right;"> -0.0225059 </td>
+   <td style="text-align:right;"> 0.5774840 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> aRT_rc </td>
+   <td style="text-align:left;"> mar_dichot </td>
+   <td style="text-align:right;"> 0.0031607 </td>
+   <td style="text-align:right;"> 0.9376505 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> aRT_aware </td>
+   <td style="text-align:left;"> mar_dichot </td>
+   <td style="text-align:right;"> -0.0221621 </td>
+   <td style="text-align:right;"> 0.5833129 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> EOD </td>
+   <td style="text-align:left;"> mar_dichot </td>
+   <td style="text-align:right;"> -0.0474280 </td>
+   <td style="text-align:right;"> 0.2402172 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Neuro </td>
+   <td style="text-align:left;"> mar_dichot </td>
+   <td style="text-align:right;"> 0.0210464 </td>
+   <td style="text-align:right;"> 0.6024154 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> age </td>
+   <td style="text-align:left;"> mar_dichot </td>
+   <td style="text-align:right;"> -0.0165776 </td>
+   <td style="text-align:right;"> 0.6815833 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> faminc </td>
+   <td style="text-align:left;"> mar_dichot </td>
+   <td style="text-align:right;"> -0.2313657 </td>
+   <td style="text-align:right;"> 0.0000000 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> employ_dichot </td>
+   <td style="text-align:left;"> mar_dichot </td>
+   <td style="text-align:right;"> 0.0246198 </td>
+   <td style="text-align:right;"> 0.5422585 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> sleep_difficult </td>
+   <td style="text-align:left;"> educ_dichot </td>
+   <td style="text-align:right;"> 0.0282162 </td>
+   <td style="text-align:right;"> 0.5006348 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> sleep_disturbance </td>
+   <td style="text-align:left;"> educ_dichot </td>
+   <td style="text-align:right;"> 0.0170144 </td>
+   <td style="text-align:right;"> 0.6846960 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> sleep_quality </td>
+   <td style="text-align:left;"> educ_dichot </td>
+   <td style="text-align:right;"> 0.0052806 </td>
+   <td style="text-align:right;"> 0.8960220 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> physical health </td>
+   <td style="text-align:left;"> educ_dichot </td>
+   <td style="text-align:right;"> -0.0188310 </td>
+   <td style="text-align:right;"> 0.6414277 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> aRT_cc </td>
+   <td style="text-align:left;"> educ_dichot </td>
+   <td style="text-align:right;"> -0.0290211 </td>
+   <td style="text-align:right;"> 0.4725181 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> aRT_sa </td>
+   <td style="text-align:left;"> educ_dichot </td>
+   <td style="text-align:right;"> 0.1842592 </td>
+   <td style="text-align:right;"> 0.0000042 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> aRT_rrw </td>
+   <td style="text-align:left;"> educ_dichot </td>
+   <td style="text-align:right;"> -0.1561005 </td>
+   <td style="text-align:right;"> 0.0001014 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> aRT_rc </td>
+   <td style="text-align:left;"> educ_dichot </td>
+   <td style="text-align:right;"> 0.0123432 </td>
+   <td style="text-align:right;"> 0.7599931 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> aRT_aware </td>
+   <td style="text-align:left;"> educ_dichot </td>
+   <td style="text-align:right;"> -0.0795906 </td>
+   <td style="text-align:right;"> 0.0485073 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> EOD </td>
+   <td style="text-align:left;"> educ_dichot </td>
+   <td style="text-align:right;"> -0.1675796 </td>
+   <td style="text-align:right;"> 0.0000295 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Neuro </td>
+   <td style="text-align:left;"> educ_dichot </td>
+   <td style="text-align:right;"> 0.0543995 </td>
+   <td style="text-align:right;"> 0.1778781 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> age </td>
+   <td style="text-align:left;"> educ_dichot </td>
+   <td style="text-align:right;"> 0.1441428 </td>
+   <td style="text-align:right;"> 0.0003357 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> faminc </td>
+   <td style="text-align:left;"> educ_dichot </td>
+   <td style="text-align:right;"> -0.2346316 </td>
+   <td style="text-align:right;"> 0.0000000 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> employ_dichot </td>
+   <td style="text-align:left;"> educ_dichot </td>
+   <td style="text-align:right;"> 0.1725782 </td>
+   <td style="text-align:right;"> 0.0000168 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> mar_dichot </td>
+   <td style="text-align:left;"> educ_dichot </td>
+   <td style="text-align:right;"> 0.0274311 </td>
+   <td style="text-align:right;"> 0.4971298 </td>
+  </tr>
+</tbody>
+</table>
+
 </div>
 </div>
 </section>
